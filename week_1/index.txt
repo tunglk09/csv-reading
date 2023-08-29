@@ -1,1 +1,21 @@
-lmao
+The terminal is utilized to execute two specific requirements: SELECT and INSERT commands.
+Users must adhere to SQL syntax rules to ensure successful code execution.
+In case of non-compliance, the terminal will promptly display a "SYNTAX ERROR" message.
+When users employ the SELECT command, data is exhibited in tabular form, structured with rows and columns, separated by '|'.
+Query Parsing:
+
+A CSV (Comma-Separated Values) file organizes data by utilizing commas to separate distinct values or fields.
+Each line in the CSV file represents a unique data row, with individual values being separated by commas.
+Double quotation marks ("") play a pivotal role in CSV files, particularly when values encompass special characters, such as commas, newlines, or the delimiter itself.
+CSV Reading:
+
+CSV file reading involves employing string manipulation to extract data elements separated by ','.
+The use of libraries like <string> and <sstream> in C++ aids in processing.
+After successfully parsing each element, they are stored within a vector.
+Since each row has a consistent number of columns, a transition from the first element of the nth row to the index-n+1 row encompasses "the number of columns" elements.
+This structure facilitates swift access to each line, simplifying operations such as INSERT commands.
+Query Execution:
+
+A vector structure is employed to store each element, following a consistent column count.
+This vector-based approach streamlines operations, as each element can be effortlessly extracted for various purposes, including INSERT operations executed in multiple ways.
+Overall, these enhancements aim to improve the readability, coherence, and accuracy of your report.
